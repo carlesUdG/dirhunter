@@ -14,7 +14,7 @@ def attack(host, wordlist, extension):
         print('\n\nBye!')
 
 host = input('Enter the host...\n')
-fileName = input('Enter the file name of a wordlist...\n')
+fileName = input('Enter the file name your wordlist (e.g. directory-list-2.3-small.txt)...\n')
 
 if not host.endswith('/'):
     host = host + '/'
